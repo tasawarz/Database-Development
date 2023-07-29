@@ -64,5 +64,14 @@ Tableau was used to visualize the results of the SQL queries. Dashboards and gra
 
 ![image](https://github.com/tasawarz/Database-Development/assets/119436229/c13a1298-b95d-4cd3-9460-7a756f7b78b0)
 
+The first graph i.e., Top 3 Expense Type per Quarter gives us insights about the three most demanding expense types. For Q1 Grant, IT, Telecomms Run Cost, and FM Services are the top 3 expense types. The filter below the graph can be used to visualize the other quarters. 
+
+The second graph i.e., Top 10 Supplier per Quarter, it is observed that for all the quarters Greater London Authority (G) is the major account that’s taken the highest expenses. The graph below includes all the quarters; however, the quarters can be visualized separately using the filter on the right.
+
+The third graph i.e., the Top 4 ExpArea by Year and HalfYears shows four top Expense areas i.e., CPFG - Crime Policing & Fire Group, DDaT - Digital Data & Technology, UKVI - UK Visas & Immigration, HMPO - Her Majesty's Passport Office. The first half is represented by Orange color, the second half by Red, and Spendingbyyear by Blue. The amount for CPFG - Crime Policing & Fire Group goes much higher as compared to other expense areas, it goes beyond 10B per year while for the other fields, it remains under a billion. 
+
+The fourth graph i.e., the Total Spend by Entity over each month and quarter gives us insights about the top expense type account under each entity over each month and quarter. It is seen that Home Office is spending most of the money on grants, while DBS – Disclosure and Barring Services spends most on Business Processes and Outsourcing. The filters on the right will let you choose to visualize the spending by expense type and entity over the months.
+
+
 **Conclusion:**
-This prototype development of the Home Office payments data warehouse successfully showcases how data can be extracted, transformed, and loaded into a star schema using SSIS. Tableau's visualization capabilities help in understanding spending patterns and make informed decisions. The resulting data warehouse serves as a powerful analytical tool for further exploration and decision-making purposes.
+This prototype development of the Home Office payments data warehouse successfully showcases how data can be extracted, transformed, and loaded into a star schema using SSIS. Tableau's visualization capabilities help in understanding spending patterns and making informed decisions. The resulting data warehouse serves as a powerful analytical tool for further exploration and decision-making purposes.
